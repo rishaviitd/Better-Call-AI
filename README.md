@@ -66,3 +66,34 @@ A production-grade agentic legal research and reasoning system built using moder
 | Container Registry | ECR |
 | Logging & Metrics | CloudWatch |
 | Secrets Management | Secrets Manager |
+
+
+## LEARNING GOALS 
+
+AI AGENT
+
+- AI engineering production grade RAG application
+
+TRANSFORMERS WORLD
+
+- transformers sota architecture in vision, speech, text 
+- transformers inference optimizations like vllm
+- SFT fine tuning embedding model, rerankers, llms 
+
+REINFORCEMENT LEARNING 
+
+- Application of RL in games
+- RFT Large Language Models
+
+DATA ENGINEERING 
+
+- learning the basics of data engineering pipelines and database design
+
+DATA SCIENCE 
+
+- Supervised Learning
+- Unsupervised Learning
+- Deep Learning
+- Recommender Systems
+- Metrics
+- Time Series
