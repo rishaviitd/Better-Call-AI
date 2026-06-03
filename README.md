@@ -8,92 +8,61 @@ A production-grade agentic legal research and reasoning system built using moder
 
 ## Frontend
 
-| Layer | Tech |
-|---|---|
-| Frontend Framework | Next.js |
-| UI Components | shadcn/ui + Tailwind CSS |
-| Authentication | Clerk |
-| Streaming | SSE + WebSockets |
+| Layer              | Tech                     |
+| ------------------ | ------------------------ |
+| Frontend Framework | Next.js                  |
+| UI Components      | shadcn/ui + Tailwind CSS |
+| Authentication     | Clerk                    |
+| Streaming          | SSE + WebSockets         |
 
 ---
 
 ## Backend
 
-| Layer | Tech |
-|---|---|
-| Backend API | FastAPI |
-| API Validation | Pydantic |
-| Durable Workflows | Temporal |
-| Background Workers | Temporal Workers |
-| Working Memory | Redis (AWS ElastiCache) |
-| Long-Term Memory | OpenMemory |
-| Relational Database | Postgres (AWS RDS) |
-| File Storage | AWS S3 |
-| Containerization | Docker |
-| Container Registry | AWS ECR |
-| Deployment Runtime | ECS Fargate |
-| Secrets Management | AWS Secrets Manager |
-| Logs | CloudWatch Logs |
-| Metrics | CloudWatch Metrics |
-| Error Monitoring | Sentry |
-| CI/CD | GitHub Actions |
+| Layer               | Tech                    |
+| ------------------- | ----------------------- |
+| Backend API         | FastAPI                 |
+| API Validation      | Pydantic                |
+| Durable Workflows   | Temporal                |
+| Background Workers  | Temporal Workers        |
+| Working Memory      | Redis (AWS ElastiCache) |
+| Long-Term Memory    | OpenMemory              |
+| Relational Database | Postgres (AWS RDS)      |
+| File Storage        | AWS S3                  |
+| Containerization    | Docker                  |
+| Container Registry  | AWS ECR                 |
+| Deployment Runtime  | ECS Fargate             |
+| Secrets Management  | AWS Secrets Manager     |
+| Logs                | CloudWatch Logs         |
+| Metrics             | CloudWatch Metrics      |
+| Error Monitoring    | Sentry                  |
+| CI/CD               | GitHub Actions          |
 
 ---
 
 ## AI Infrastructure
 
-| Layer | Tech |
-|---|---|
-| Agent Orchestration | LangGraph |
-| Vector Database | Qdrant |
-| Embeddings | Zembed |
-| Reranking | Zembed |
-| Retrieval Harness | Custom Python Layer |
-| OCR / Parsing | LlamaParse |
-| AI Tracing | LangSmith |
-| Evaluation Layer | LangSmith + Custom Evals |
+| Layer               | Tech                     |
+| ------------------- | ------------------------ |
+| Agent Orchestration | LangGraph                |
+| Vector Database     | Qdrant                   |
+| Embeddings          | Zembed                   |
+| Reranking           | Zembed                   |
+| Retrieval Harness   | Custom Python Layer      |
+| OCR / Parsing       | LlamaParse               |
+| AI Tracing          | LangSmith                |
+| Evaluation Layer    | LangSmith + Custom Evals |
 
 ---
 
 ## AWS Services
 
-| Service Type | AWS Service |
-|---|---|
-| Compute | ECS Fargate |
-| Relational Database | RDS Postgres |
-| Redis | ElastiCache |
-| Object Storage | S3 |
-| Container Registry | ECR |
-| Logging & Metrics | CloudWatch |
-| Secrets Management | Secrets Manager |
-
-
-## LEARNING GOALS 
-
-AI AGENT
-
-- AI engineering production grade RAG application
-
-TRANSFORMERS WORLD
-
-- transformers sota architecture in vision, speech, text 
-- transformers inference optimizations like vllm
-- SFT fine tuning embedding model, rerankers, llms 
-
-REINFORCEMENT LEARNING 
-
-- Application of RL in games
-- RFT Large Language Models
-
-DATA ENGINEERING 
-
-- learning the basics of data engineering pipelines and database design
-
-DATA SCIENCE 
-
-- Supervised Learning
-- Unsupervised Learning
-- Deep Learning
-- Recommender Systems
-- Metrics
-- Time Series
+| Service Type        | AWS Service     |
+| ------------------- | --------------- |
+| Compute             | ECS Fargate     |
+| Relational Database | RDS Postgres    |
+| Redis               | ElastiCache     |
+| Object Storage      | S3              |
+| Container Registry  | ECR             |
+| Logging & Metrics   | CloudWatch      |
+| Secrets Management  | Secrets Manager |
